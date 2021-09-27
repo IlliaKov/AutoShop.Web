@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="Web">
+    <Position X="7.962" Y="17.495" Height="9.843" Width="2.077" />
+  </Comment>
+  <Comment CommentText="Models">
+    <Position X="8.024" Y="11.921" Height="2.678" Width="2.098" />
+  </Comment>
+  <Comment CommentText="Entities">
+    <Position X="8.113" Y="4.524" Height="2.699" Width="1.993" />
+  </Comment>
+  <Comment CommentText="BL.ABSTRACT">
+    <Position X="27.111" Y="18.731" Height="1.735" Width="1.868" />
+  </Comment>
+  <Comment CommentText="DAL..ASBTRACT">
+    <Position X="26.804" Y="4.146" Height="3.998" Width="2.287" />
+  </Comment>
+  <Comment CommentText="DAL.IMPL">
+    <Position X="26.857" Y="11.313" Height="5.38" Width="2.35" />
+  </Comment>
+  <Comment CommentText="BL.IMPL">
+    <Position X="27.09" Y="21.706" Height="2.049" Width="1.784" />
+  </Comment>
+  <Class Name="AutoShop.Web.Controllers.CarController">
+    <Position X="11.25" Y="21" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAEAAEACAAAAAAAAAAI=</HashCode>
+      <FileName>Controllers\CarController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoShop.Web.Controllers.ClientController">
+    <Position X="15.25" Y="21" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAEAAEACAAAAAAAAAAI=</HashCode>
+      <FileName>Controllers\ClientController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoShop.Web.Controllers.HomeController">
+    <Position X="11.25" Y="24.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAIAAAAQAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoShop.Web.Controllers.ManagerController">
+    <Position X="15.25" Y="24.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAEAAEACAAAAAAAAAAI=</HashCode>
+      <FileName>Controllers\ManagerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoShop.Web.Controllers.OrderController">
+    <Position X="19.25" Y="21" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAEAAEACAAAAAAAAAAI=</HashCode>
+      <FileName>Controllers\OrderController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoShop.Web.Models.ErrorViewModel">
+    <Position X="19.25" Y="24.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ErrorViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoShop.Web.Program">
+    <Position X="19.25" Y="18" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoShop.Web.Startup">
+    <Position X="15.25" Y="18" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAgAAACAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoShop.Models.CarDTO">
+    <Position X="14" Y="12" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoShop.Models.ClientDTO">
+    <Position X="17" Y="12" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoShop.Models.ManagerDTO">
+    <Position X="11" Y="12" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoShop.Models.OrderDTO">
+    <Position X="20" Y="12" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoShop.Entities.Car">
+    <Position X="14" Y="4.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoShop.Entities.Client">
+    <Position X="17" Y="4.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoShop.Entities.Manager">
+    <Position X="11" Y="4.5" Width="2.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoShop.Entities.Order">
+    <Position X="20" Y="4.5" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoShop.DAL.IMPL.AutoShopContext">
+    <Position X="41.25" Y="11.5" Width="4" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoShop.DAL.IMPL.CarRepository">
+    <Position X="29.75" Y="15.5" Width="3.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AutoShop.DAL.IMPL.ClientRepository">
+    <Position X="39" Y="15.5" Width="3.5" />
+    <InheritanceLine Type="AutoShop.DAL.IMPL.GenericRepository&lt;TEntity&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="38" Y="14.151" />
+        <Point X="38" Y="14.689" />
+        <Point X="40.75" Y="14.689" />
+        <Point X="40.75" Y="15.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AutoShop.DAL.IMPL.GenericRepository&lt;TEntity&gt;">
+    <Position X="36.25" Y="11.25" Width="3.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AutoShop.DAL.IMPL.ManagerRepository">
+    <Position X="34.25" Y="15.5" Width="3.75" />
+    <InheritanceLine Type="AutoShop.DAL.IMPL.GenericRepository&lt;TEntity&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="38" Y="14.151" />
+        <Point X="38" Y="14.798" />
+        <Point X="36.125" Y="14.798" />
+        <Point X="36.125" Y="15.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AutoShop.DAL.IMPL.OrderRepository">
+    <Position X="43.5" Y="15.5" Width="3.5" />
+    <InheritanceLine Type="AutoShop.DAL.IMPL.GenericRepository&lt;TEntity&gt;" ManuallyRouted="true">
+      <Path>
+        <Point X="38" Y="14.151" />
+        <Point X="38" Y="14.719" />
+        <Point X="45.25" Y="14.719" />
+        <Point X="45.25" Y="15.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AutoShop.BL.IMPL.CarService" BaseTypeListCollapsed="true">
+    <Position X="29.5" Y="21.75" Width="3" />
+    <TypeIdentifier />
+    <Lollipop Position="0.188" />
+  </Class>
+  <Class Name="AutoShop.BL.IMPL.ClientService" BaseTypeListCollapsed="true">
+    <Position X="33" Y="21.75" Width="3.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AutoShop.BL.IMPL.ManagerService" BaseTypeListCollapsed="true">
+    <Position X="36.5" Y="21.75" Width="4" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AutoShop.BL.IMPL.OrderService" BaseTypeListCollapsed="true">
+    <Position X="41" Y="21.75" Width="3.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="AutoShop.DAL.ABSTRACT.ICarRepository">
+    <Position X="35" Y="7.25" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AutoShop.DAL.ABSTRACT.IClientRepository">
+    <Position X="37.75" Y="7.25" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AutoShop.DAL.ABSTRACT.IGenericRepository&lt;TEntity&gt;">
+    <Position X="36" Y="4.25" Width="2.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AutoShop.DAL.ABSTRACT.IManagerRepository">
+    <Position X="32" Y="7.25" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AutoShop.DAL.ABSTRACT.IOrderRepository">
+    <Position X="40.75" Y="7.25" Width="1.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AutoShop.BL.IMPL.ICarService">
+    <Position X="29.75" Y="18.75" Width="2.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AutoShop.BL.IMPL.IClientService">
+    <Position X="33.5" Y="18.75" Width="2.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AutoShop.BL.IMPL.IManagerService">
+    <Position X="37" Y="18.75" Width="3" />
+    <TypeIdentifier />
+  </Interface>
+  <Interface Name="AutoShop.BL.IMPL.IOrderService">
+    <Position X="41.25" Y="18.75" Width="2.75" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
